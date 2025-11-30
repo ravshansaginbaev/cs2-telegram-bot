@@ -19,7 +19,7 @@ NAME, SURNAME, SECTION, AUID, TELEGRAM_USERNAME, STEAM_ID = range(6)
 def start(update: Update, context: CallbackContext):
     update.message.reply_text(
         "👋 Welcome to the Acharya CS2 Registration Bot!\nPlease enter your *Name:*",
-        parse_mode=ParseMode.MARKDOWN
+        parse_mode='Markdown'
     )
     return NAME
 
